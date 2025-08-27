@@ -13,34 +13,48 @@ body{
 
 .parent{
     padding: 20px;
-    margin-top: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
     background-color: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px black;
+    
 }
 
 .pic>img{
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 20px;  
 }
 .p1{
     background-color: rgba(255, 208, 0, 0.877);
-    width: 65px;
+    width: 60px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: small;
 }
 .p1{
     margin-bottom: 10px;
 }
 .p2{
     font-size: 15px;
+    margin-bottom: 20px;
+}
+.p3{
+    margin-bottom: 20px;
+    color: gray;
 }
 .para>h1{
     font-size: larger;
     width: 300px;
+    margin-bottom: 20px;
 }
 .foto{
     display: flex;
